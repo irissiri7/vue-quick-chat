@@ -6,7 +6,7 @@
         class="message-input"
         :placeholder="placeholder"
         tabIndex="0"
-        contenteditable="true"
+        :contenteditable="!disableSend"
         @input="handleType"
         @keyup.enter.exact="sendMessage"
       ></div>
