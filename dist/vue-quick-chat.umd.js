@@ -14858,12 +14858,12 @@ var MessageDisplay_component = normalizeComponent(
 )
 
 /* harmony default export */ var MessageDisplay = (MessageDisplay_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3b47a92f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MessageManager.vue?vue&type=template&id=20ef1e12&
-var MessageManagervue_type_template_id_20ef1e12_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-message-manager"},[_c('div',{staticClass:"message-text-box"},[_c('div',{ref:"userInput",staticClass:"message-input",attrs:{"placeholder":_vm.placeholder,"tabIndex":"0","contenteditable":"true"},on:{"input":_vm.handleType,"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }if($event.ctrlKey||$event.shiftKey||$event.altKey||$event.metaKey){ return null; }return _vm.sendMessage($event)}}})]),_c('div',{staticClass:"container-send-message icon-send-message",on:{"click":function($event){$event.preventDefault();return _vm.sendMessage($event)}}},[_c('SendIcon',{attrs:{"size":_vm.submitIconSize,"fill-color":_vm.colors.submitIcon}})],1),(_vm.sendImages)?_c('div',{staticClass:"container-send-message icon-send-message",on:{"click":_vm.pickImage}},[_c('input',{ref:"inputImage",staticStyle:{"display":"none"},attrs:{"accept":_vm.acceptImageTypes,"type":"file"},on:{"input":_vm.handleImageChange}}),_c('ImageIcon',{attrs:{"size":_vm.submitImageIconSize,"fill-color":_vm.colors.submitImageIcon}})],1):_vm._e()])}
-var MessageManagervue_type_template_id_20ef1e12_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3b47a92f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/MessageManager.vue?vue&type=template&id=4c3b71a6&
+var MessageManagervue_type_template_id_4c3b71a6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-message-manager"},[_c('div',{staticClass:"message-text-box"},[_c('div',{ref:"userInput",staticClass:"message-input",attrs:{"placeholder":_vm.placeholder,"tabIndex":"0","contenteditable":!_vm.disableSend},on:{"input":_vm.handleType,"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }if($event.ctrlKey||$event.shiftKey||$event.altKey||$event.metaKey){ return null; }return _vm.sendMessage($event)}}})]),_c('div',{staticClass:"container-send-message icon-send-message",on:{"click":function($event){$event.preventDefault();return _vm.sendMessage($event)}}},[_c('SendIcon',{attrs:{"size":_vm.submitIconSize,"fill-color":_vm.colors.submitIcon}})],1),(_vm.sendImages)?_c('div',{staticClass:"container-send-message icon-send-message",on:{"click":_vm.pickImage}},[_c('input',{ref:"inputImage",staticStyle:{"display":"none"},attrs:{"accept":_vm.acceptImageTypes,"type":"file"},on:{"input":_vm.handleImageChange}}),_c('ImageIcon',{attrs:{"size":_vm.submitImageIconSize,"fill-color":_vm.colors.submitImageIcon}})],1):_vm._e()])}
+var MessageManagervue_type_template_id_4c3b71a6_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/MessageManager.vue?vue&type=template&id=20ef1e12&
+// CONCATENATED MODULE: ./src/components/MessageManager.vue?vue&type=template&id=4c3b71a6&
 
 // EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
 var runtime = __webpack_require__("96cf");
@@ -15261,8 +15261,8 @@ var MessageManagervue_type_style_index_0_lang_less_ = __webpack_require__("9104"
 
 var MessageManager_component = normalizeComponent(
   components_MessageManagervue_type_script_lang_js_,
-  MessageManagervue_type_template_id_20ef1e12_render,
-  MessageManagervue_type_template_id_20ef1e12_staticRenderFns,
+  MessageManagervue_type_template_id_4c3b71a6_render,
+  MessageManagervue_type_template_id_4c3b71a6_staticRenderFns,
   false,
   null,
   null,
